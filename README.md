@@ -18,7 +18,9 @@ implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
 ```
 
 **Note:** 
+
 _USERNAME:_ TEJAS01
+
 _PASSWORD:_ Tejas1611
 
 * To run the backend Python scripts, following modules are required
