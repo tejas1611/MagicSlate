@@ -5,7 +5,7 @@ Using the in-built automated grading system, learn from your mistakes and get on
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Some basic instructions...
 
 ### Prerequisites
 
@@ -16,6 +16,11 @@ What things you need to install the software and how to install them
 implementation 'com.squareup.retrofit2:retrofit:2.4.0'
 implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
 ```
+
+**Note:** 
+_USERNAME:_ TEJAS01
+_PASSWORD:_ Tejas1611
+
 * To run the backend Python scripts, following modules are required
 1. OpenCV `pip install opencv-contrib-python`
 2. Scikit-Image `pip install scikit-image`
