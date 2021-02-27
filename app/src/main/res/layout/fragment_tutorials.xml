@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".lessons.lesson3.TutorialsFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/videoViewWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="8dp"
+            />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@color/hippiblue"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/videoViewWrapper"/>
+        <TextView
+            android:id="@+id/intro_content"
+            android:layout_below="@id/intro"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="To start us off, we're going to ease into the subject of drawing rather gently. Each topic will build on the last, gradually working you up. We are also using these different lesson topics to look at the topic of constructional drawing from many different angles.
+            \n\nI don't necessarily expect that upon completing this lesson, you'll be able to put all of the concepts I mention here into practice. Instead, I wish you to finish with a general understanding of what the concepts are on a theoretical level, an awareness of what you are doing wrong, and a target to aim for in the long term.
+            \n\nDue to how all of these lessons are structured, you will continue to develop the skills explored here in later lessons, so in the future, you may want to come back to this lesson and attempt the homework again - just to see how your skills have improved."/>
+
+        <TextView
+            android:id="@+id/flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flow"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@color/hippiblue"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/intro_content"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:id="@+id/flow_content"
+            android:layout_below="@id/flow"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="One of the most important concepts covered in this lesson is the importance of conveying how a form flows through 3D space. Things like leaves, petals and so on don't have any real solidity or mass to them. Being as thin and weightless as they are, they are entirely subject to the whims of the forces around them. Wind, airflow, drag, all of these forces are what determine just how a leaf will move through space.
+            \n\nWhen tackling anything that relies heavily on leaves, think about it like the arrows from lesson 2. Where a box may focus on its solidity in order to feel three dimensional, forms like leaves must emphasize their natural flowing nature - sometimes to the point of exaggeration.
+\n\nMore than anything, if you want your lines to flow smoothly, draw them confidently and from the shoulder. Don't hesitate, don't get overly careful and wobbly. Just push your lines through and commit to them."/>
+
+        <TextView
+            android:id="@+id/organics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organics"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@color/hippiblue"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/flow_content"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:id="@+id/organics_content"
+            android:layout_below="@id/organics"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Aside from the flat, flowing shapes of leaves and petals, the majority of your constructions will be done with a variety of organic forms. Organics are essentially combinations of balls and tubes, and are what we explored in lesson 2.
+\n\nYou can, and should, try and think of these in terms of flow as well, while also trying to convey their solidity and volume. It can be tempting to cover them with dozens of contour lines - don't do that. Every mark you put down should be evaluated based on what it's going to contribute to your drawing, and how that task can be accomplished best by the stroke. This means drawing a couple contour lines that do their job effectively, rather than many sloppy ones. If you find yourself wanting to put down a bunch, then you're probably doing something wrong." />
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

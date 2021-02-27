@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonActivity"
+    android:background="@color/hippiblue" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART ONE: THE BASICS"
+            android:textColor="@color/darkorange"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp" />
+        <ImageButton
+            android:id="@+id/l0"
+            android:layout_below="@id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson0"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+        <ImageButton
+            android:id="@+id/l1"
+            android:layout_below="@id/l0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+        <ImageButton
+            android:id="@+id/l2"
+            android:layout_below="@id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson2"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+
+        <TextView
+            android:id="@+id/p2"
+            android:layout_below="@id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART TWO: CONSTRUCTIONAL DRAWING"
+            android:textColor="@color/darkorange"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp" />
+        <ImageButton
+            android:id="@+id/l3"
+            android:layout_below="@id/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson3"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+        <ImageButton
+            android:id="@+id/l4"
+            android:layout_below="@id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson4"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+        <ImageButton
+            android:id="@+id/l5"
+            android:layout_below="@id/l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson5"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+        <ImageButton
+            android:id="@+id/l6"
+            android:layout_below="@id/l5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson6"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+        <ImageButton
+            android:id="@+id/l7"
+            android:layout_below="@id/l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lessons_lesson7"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="onClickLesson"/>
+    </RelativeLayout>
+
+</ScrollView>

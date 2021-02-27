@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/aqua_background"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="false"
+        android:src="@drawable/app_logo"
+        android:translationY="-45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-30dp"
+        android:textColor="#CDCDCD"
+        android:text="DRAWING IS A \nLEARNABLE SKILL"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        />
+</RelativeLayout>

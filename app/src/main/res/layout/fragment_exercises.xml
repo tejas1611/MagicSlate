@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".lessons.lesson3.ExercisesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/WheelChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/wheel_challenge_small"
+            android:background="@android:color/transparent"
+            app:strokeColor="@android:color/darker_gray"
+            app:strokeWidth="7dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="12dp"
+            android:text="WHEEL \nCHALLENGE"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_below="@id/WheelChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/treasure_chest_small"
+            android:background="@android:color/transparent"
+            app:strokeColor="@android:color/darker_gray"
+            app:strokeWidth="7dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="12dp"
+            android:text="TREASURE CHEST \nCHALLENGE"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</FrameLayout>

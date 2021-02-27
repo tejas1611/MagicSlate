@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lessons.lesson3.WheelChallenge"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+    <TextView
+        android:id="@+id/intDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHAT THIS CHALLENGE IS ABOUT"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/hippiblue"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_below="@id/intDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wheels serve as both a difficult aspect of the already significant challenge of drawing cars, but also an interesting summary of what makes cars so difficult. Each and every wheel has a sort of specific character, made up of a series of curves and irregularities in their forms that pertain to each model and make.
+        \nYou are encouraged to use a ballpoint pen instead of a fineliner for this challenge."
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_margin="7dp" />
+    <TextView
+        android:id="@+id/obj"
+        android:layout_below="@id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR OBJECTIVE:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingLeft="8dp"
+        android:background="@color/hippiblue"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="283dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/wheel_challenge"
+        android:layout_below="@id/obj"/>
+
+    <TextView
+        android:id="@+id/sub"
+        android:layout_below="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMISSIONS:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/hippiblue"/>
+    <Button
+        android:onClick="OpenCamera"
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:text="TAKE A \nPICTURE"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:paddingHorizontal="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingVertical="5dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentRight="true"
+        android:text="CHOOSE FROM FILE"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:paddingHorizontal="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingVertical="5dp"/>
+    </RelativeLayout>
+</ScrollView>

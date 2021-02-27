@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/chap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 3: Applying Construction to Plants"
+        android:textSize="20sp"
+        android:layout_marginVertical="7dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_below="@id/chap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@layout/bottom_navigation_menu"
+        app:elevation="1dp"
+        android:background="@color/blue"
+        />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content" >
+    <item
+        android:id="@+id/prerequisites"
+        android:enabled="true"
+        android:icon="@drawable/prerequisite"
+        android:title="Pre-Requisites"/>
+    <item
+        android:id="@+id/tutorials"
+        android:enabled="true"
+        android:icon="@drawable/tutorial"
+        android:title="Tutorials"/>
+    <item
+        android:id="@+id/exercises"
+        android:enabled="true"
+        android:icon="@drawable/exercises"
+        android:title="Drills"/>
+</menu>
