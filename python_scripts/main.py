@@ -20,12 +20,13 @@ def ImageToText(image):
     expected = findPage(expected)
 
     s = ssim(image, expected)
-
+    percent = s*100
     cv2.imwrite(path_file, image)
     with open('ssim_output.txt','w') as f:
         f.write(str(s));
-        
-    return json.dumps(str(s))
+
+    
+    return json.dumps(format(percent,'.2f'))
 
 
 def findPage(image):
